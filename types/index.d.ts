@@ -142,6 +142,14 @@ declare interface CreditCardProps {
   showBalance?: boolean;
 }
 
+// declare interface CustomInputProps {
+//   name: string;
+//   placeholder: string;
+//   type?: string;
+//   form: any;
+//   label: string;
+// }
+
 declare interface BankInfoProps {
   account: Account;
   appwriteItemId?: string;
